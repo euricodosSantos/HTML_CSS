@@ -1,0 +1,24 @@
+@charset "UTF-8";
+header{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+div{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+     font-style: italic;
+     text-decoration: none;
+}
+a{
+    color:white ;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

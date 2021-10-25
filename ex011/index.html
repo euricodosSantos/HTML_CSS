@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir essa imagem em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em Html <html></html></p>
+    <audio preload="metadata" controls  >
+        <source src="midia/Blue Bird.mp3" type="audio/mpeg">
+        <source src="midia/Blue Bird.mp3" type="audio/ogg"> 
+        <p>infelizmente seu navegador n e copativel com esse audio</p>
+       <p></p> <a href="midia/Blue Bird.mp3"> Clik aqui para fazer donwload do arquivo </a>
+    </audio>
+    <!---FORMAtos de audios MP3 WAV OGG -->
+</body>
+</html>
